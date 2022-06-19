@@ -44,9 +44,9 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/Daxxy'
-global.sgh = 'https://github.com/Kayzen24'
-global.sgc = 'https://chat.whatsapp.com/Eo5xjPOaVqJ9gfHpncUMB7'
+global.sig = 'https://instagram.com/ppiowy_'
+global.sgh = 'https://github.com/kannachann'
+global.sgc = 'https://chat.whatsapp.com/EawZW6vp8gwG4uGt0r4Awa'
 global.sdc = 'https://discord.gg/WEJQjugTY7'
 global.snh = 'https://nhentai.net/g/365296/'
 
@@ -99,9 +99,9 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'Papah-Chan',
+  'https://api.xteam.xyz': 'APIKEY',
   'https://anabotofc.herokuapp.com/': 'APIKEY',
-  'https://api.lolhuman.xyz': 'Papah-Chan',
+  'https://api.lolhuman.xyz': '',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
   'https://pencarikode.xyz': 'pais',
@@ -117,11 +117,11 @@ global.APIKeys = { // APIKey Here
 /*============== WATERMARK ==============*/
 //GANTI SETERAH MU
 global.wm = '                「 𝙳𝚊𝚡𝚡𝚢 𝙱𝚘𝚝 あ⁩ 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝙳𝚊𝚡𝚡𝚢 - 𝚈𝚐𝚢˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ 𝙳𝚊𝚡𝚡𝚢 𝙱𝚘𝚝'
+global.wm2 = '𝙳𝚊𝚡𝚡𝚢 - 𝚈𝚐𝚢 '
+global.wm3 = '✍︎ 𝙳𝚊𝚡𝚡𝚢 𝙱𝚘𝚝'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = '🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ'
+global.titlebot = '𝒟𝒶𝓍𝓍𝓎 𝒴ℊ𝓎 ℬ𝓎 𝒜𝒹𝒾𝓉𝓎𝒶'
 global.author = '                「 𝙳𝚊𝚡𝚡𝚢 𝙱𝚘𝚝 あ⁩ 」'
 
 
@@ -162,7 +162,7 @@ global.dmenuf = '┗––––––––––✦' //footer
 global.dashmenu = '┅━━━━━═┅═❏ *DASHBOARD* ❏═┅═━━━━━┅'
 global.cmenut = '❏––––––『'                       //top
 global.cmenuh = '』––––––'                        //header
-global.cmenub = '┊✰ '                            //body
+global.cmenub = '┊✰'                            //body
 global.cmenuf = '┗━═┅═━––––––๑\n'                //footer
 global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
 global.pmenus = '┊'                              //pembatas menu selector
@@ -176,7 +176,7 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
-global.stickauth = `☂︎\n❀Daxxy\n\nn\nn\n\n-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = `Adit No Counter ygy`
 
 global.multiplier = 38 // The higher, The harder levelup
 
