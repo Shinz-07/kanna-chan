@@ -285,7 +285,6 @@ ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 
 𝑶𝑭𝑭𝑪𝑰𝑨𝑳 𝑮𝑹𝑶𝑼𝑷 𝑩𝑶𝑻 
 bit.ly/3QHkyMq
-
 `
 const listMessage = {
   text: tek,
