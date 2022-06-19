@@ -289,7 +289,7 @@ bit.ly/3QHkyMq
 `
 const listMessage = {
   text: tek,
-  footer: ' 📮Bot Nya Masih Beta 😅 Jadi Kalo Ada Bug Di Maklumin Ae Bisa Lapor Ke Owner, Cari SC? Ini SC kanna Yang gw Recode 😊🙏   ',
+  footer: ' 📮Bot Nya Masih V 1.0 Masih Banyak Bug :)  ',
   mentions: await conn.parseMention(tek),
   title: `${htki} *𝑳𝒊𝒔𝒕 𝑴𝒆𝒏𝒖* ${htka}`,
   buttonText: 'M E N U ✨  `,
