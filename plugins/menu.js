@@ -290,7 +290,7 @@ const listMessage = {
   footer: ' 📮Bot Masih Versi  1.0 Jadi Jadi Masih Banyak Bug :) ',
   mentions: await conn.parseMention(tek),
   title: `${htki} *𝑳𝒊𝒔𝒕 𝑴𝒆𝒏𝒖* ${htka}`,
-  buttonText: ` L I S T 🌱 `,
+  buttonText: ` LIꪶ࿋྄ིᤢꫂST `,
   sections
 }
   if (teks == '404') {
