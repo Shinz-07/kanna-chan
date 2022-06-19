@@ -126,7 +126,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     'admin': `Admin ${global.opts['restrict'] ? '' : '(Dinonaktifkan)'}`,
     'group': '🅐︎🅓︎🅜︎🅘︎🅝︎'
   }
-  if (teks == 'Group') tags = {
+  if (teks == 'Grop︎') tags = {
     'group': '🅖︎🅡︎🅞︎🅤︎🅟︎'
   }
   if (teks == 'premium') tags = {
@@ -282,16 +282,15 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 ┊𝒫𝓁𝓈𝓈 𝒩ℴ ℋ𝓊𝒿𝒶𝓉 ℳℯ ℋ𝒶𝓃𝓎𝒶 ℛℯ𝒸ℴ𝒹
 ┗━═┅═━––––––
-
 𝑶𝑭𝑭𝑪𝑰𝑨𝑳 𝑮𝑹𝑶𝑼𝑷 𝑩𝑶𝑻 
 bit.ly/3QHkyMq
 `
 const listMessage = {
   text: tek,
-  footer: ' 📮Bot Nya Masih V 1.0 Masih Banyak Bug :)  ',
+  footer: ' 📮Bot Masih Versi  1.0 Jadi Jadi Masih Banyak Bug :) ',
   mentions: await conn.parseMention(tek),
   title: `${htki} *𝑳𝒊𝒔𝒕 𝑴𝒆𝒏𝒖* ${htka}`,
-  buttonText: 'M E N U  `,
+  buttonText: ` L I S T 🌱 `,
   sections
 }
   if (teks == '404') {
