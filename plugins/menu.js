@@ -291,7 +291,7 @@ const listMessage = {
   footer: ' 𝙸𝚗𝚏𝚘|𝙱𝚘𝚝 𝙾𝚗 24 𝙹𝚊𝚖 𝙺𝚊𝚕𝚘 𝙶𝚊𝚔 𝙾𝚗 𝙱𝚛𝚊𝚛𝚝𝚒 𝙰𝚍𝚊 𝙼𝚊𝚜𝚊𝚕𝚊𝚑 𝚂𝚊𝚖𝚊 𝙺𝚘𝚞𝚝𝚊 𝙽𝚢𝚊:𝚟   ',
   mentions: await conn.parseMention(tek),
   title: `${htki} *𝑳𝒊𝒔𝒕 𝑴𝒆𝒏𝒖* ${htka}`,
-  buttonText: `CLICK ME `,
+  buttonText: 'Click Me  `,
   sections
 }
   if (teks == '404') {
