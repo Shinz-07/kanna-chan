@@ -285,13 +285,14 @@ ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 
 𝑶𝑭𝑭𝑪𝑰𝑨𝑳 𝑮𝑹𝑶𝑼𝑷 𝑩𝑶𝑻 
 bit.ly/3QHkyMq
+
 `
 const listMessage = {
   text: tek,
-  footer: ' 𝙸𝚗𝚏𝚘|𝙱𝚘𝚝 𝙾𝚗 24 𝙹𝚊𝚖 𝙺𝚊𝚕𝚘 𝙶𝚊𝚔 𝙾𝚗 𝙱𝚛𝚊𝚛𝚝𝚒 𝙰𝚍𝚊 𝙼𝚊𝚜𝚊𝚕𝚊𝚑 𝚂𝚊𝚖𝚊 𝙺𝚘𝚞𝚝𝚊 𝙽𝚢𝚊:𝚟   ',
+  footer: ' 📮Bot Nya Masih Beta 😅 Jadi Kalo Ada Bug Di Maklumin Ae Bisa Lapor Ke Owner, Cari SC? Ini SC kanna Yang gw Recode 😊🙏   ',
   mentions: await conn.parseMention(tek),
   title: `${htki} *𝑳𝒊𝒔𝒕 𝑴𝒆𝒏𝒖* ${htka}`,
-  buttonText: 'Click Me  `,
+  buttonText: 'M E N U ✨  `,
   sections
 }
   if (teks == '404') {
