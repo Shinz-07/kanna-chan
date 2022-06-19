@@ -126,7 +126,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     'admin': `Admin ${global.opts['restrict'] ? '' : '(Dinonaktifkan)'}`,
     'group': '🅐︎🅓︎🅜︎🅘︎🅝︎'
   }
-  if (teks == 'Grop︎') tags = {
+  if (teks == 'Group') tags = {
     'group': '🅖︎🅡︎🅞︎🅤︎🅟︎'
   }
   if (teks == 'premium') tags = {
@@ -270,7 +270,7 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┊ఌ︎ *𝑷𝒓𝒆𝒎𝒊𝒖𝒎:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
 ┊𝒜𝒹𝒾𝓉𝓎𝒶 𝒜𝓃𝒹 𝒟𝒶𝓍𝓍𝓎
 ┗━═┅═━––––––
-
+« 𝙰𝙳𝙸𝚃 𝚈𝙶𝚈 »
 ❏––––––『 *𝑺𝒕𝒂𝒕𝒖𝒔 𝑰𝒏𝒇𝒐* 』
 ┊❦︎ *𝑼𝒑𝒕𝒊𝒎𝒆:* ${mpt}
 ┊❦︎ *𝑻𝒊𝒎𝒆:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
@@ -282,15 +282,13 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 ┊𝒫𝓁𝓈𝓈 𝒩ℴ ℋ𝓊𝒿𝒶𝓉 ℳℯ ℋ𝒶𝓃𝓎𝒶 ℛℯ𝒸ℴ𝒹
 ┗━═┅═━––––––
-𝒯𝓆 𝓉ℴ
-𝒦𝒶𝓃𝓃𝒶-𝒞𝒽𝒶𝓃𝓃
-𝒟𝒶𝓍𝓍𝓎-ℬℴ𝓉
-ℬℴ𝒸𝒽𝒾𝓁-𝒢𝒶𝓂𝒾𝓂ℊ
 
+𝑶𝑭𝑭𝑪𝑰𝑨𝑳 𝑮𝑹𝑶𝑼𝑷 𝑩𝑶𝑻 
+bit.ly/3QHkyMq
 `
 const listMessage = {
   text: tek,
-  footer: ' ©Daxxy-Bot|2022  ',
+  footer: ' 𝙸𝚗𝚏𝚘|𝙱𝚘𝚝 𝙾𝚗 24 𝙹𝚊𝚖 𝙺𝚊𝚕𝚘 𝙶𝚊𝚔 𝙾𝚗 𝙱𝚛𝚊𝚛𝚝𝚒 𝙰𝚍𝚊 𝙼𝚊𝚜𝚊𝚕𝚊𝚑 𝚂𝚊𝚖𝚊 𝙺𝚘𝚞𝚝𝚊 𝙽𝚢𝚊:𝚟   ',
   mentions: await conn.parseMention(tek),
   title: `${htki} *𝑳𝒊𝒔𝒕 𝑴𝒆𝒏𝒖* ${htka}`,
   buttonText: `CLICK ME `,
