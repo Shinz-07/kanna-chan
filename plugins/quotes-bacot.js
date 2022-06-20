@@ -16,19 +16,19 @@ ${pickRandom(global.bacot)}
             templateButtons: [
                 {
                     urlButton: {
-                        displayText: '🌎 OFFICIAL GROUP',
+                        displayText: '🌎 ᴊᴏɪɴ ɢʀᴜʙ ɢᴡ ᴅᴏᴀɴɢ ᴄᴜʏ',
                         url: sgc
                     }
                 },
                 {
                     urlButton: {
-                        displayText: '📷 FOLLOW ME',
+                        displayText: '📷 ᴊᴀɴɢᴀɴ ᴅɪ ғᴏʟʟᴏᴡ:ᴠ',
                         url: sig
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'NEXT',
+                        displayText: '𝙉 𝙀 𝙓 𝙏',
                         id: '.bacot'
                     }
                 },
