@@ -775,9 +775,9 @@ sourceUrl: sgc
  } 
 })
     let msgg = {
-    	unreg: 'HALLO KAK ! 👋\nSAYA DAXXY BOT\n\n➞ LUH BELOM DAFTAR 🙃 DAFTAR DULU PENCET TOMBOL INU '
+    	unreg: '𝙃𝙖𝙡𝙤 𝙆𝙖𝙠 ! 👋\n𝙎𝙖𝙮𝙖 𝘿𝙖𝙭𝙭𝙮𝘽𝙤𝙩 BOT\n\n➞ 𝙉𝙤𝙢𝙤𝙧 𝙆𝙖𝙢𝙪 𝘽𝙡𝙤𝙢 𝙏𝙚𝙧𝙫𝙚𝙧𝙞𝙛𝙮 𝘿𝙞 𝘿𝙖𝙩𝙖𝙗𝙖𝙨𝙚 𝘽𝙤𝙩 𝙑𝙚𝙧𝙞𝙛𝙮 𝘿𝙪𝙡𝙪 𝙔𝙪𝙠:) '
 }[type]
-if (msgg) return conn.sendButton(m.chat, `${global.htki} VERIFY ${global.htka}`, msgg, null, ['𒊹︎︎︎-DAFTAR-𒊹︎︎︎', '/verify'],m)
+if (msgg) return conn.sendButton(m.chat, `${global.htki} VERIFY ${global.htka}`, msgg, null, ['𝙑 𝙚 𝙧 𝙞 𝙛 𝙮', '/verify'],m)
 }
 
 let file = global.__filename(import.meta.url, true)
