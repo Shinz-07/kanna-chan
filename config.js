@@ -44,8 +44,8 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/ppiowy_'
-global.sgh = 'https://github.com/kannachann'
+global.sig = 'https://instagram.com/kayzen24'
+global.sgh = 'https://github.com/vayzen24'
 global.sgc = 'https://chat.whatsapp.com/EawZW6vp8gwG4uGt0r4Awa'
 global.sdc = 'https://discord.gg/WEJQjugTY7'
 global.snh = 'https://nhentai.net/g/365296/'
@@ -56,7 +56,7 @@ global.povo = '081213184348'
 global.pgopay = '081213184348'
 global.ppulsa = '081213184348'
 global.ppulsa2 = '081213184348'
-global.psaweria = 'https://saweria.com/kannabotz'
+global.psaweria = 'https://saweria.com/vayy24'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6289527430568'
@@ -120,7 +120,7 @@ global.wm = '                「 𝙳𝚊𝚡𝚡𝚢 𝙱𝚘𝚝 あ⁩ 」' /
 global.wm2 = '𝙳𝚊𝚡𝚡𝚢 - 𝚈𝚐𝚢 '
 global.wm3 = '✍︎ 𝙳𝚊𝚡𝚡𝚢 𝙱𝚘𝚝'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
+global.bottime = `ᴅᴀxxʏʙᴏᴛ ᴡʜᴀᴛsᴀᴘ : ${wktuwib}`
 global.titlebot = '𝒟𝒶𝓍𝓍𝓎 𝒴ℊ𝓎 ℬ𝓎 𝒜𝒹𝒾𝓉𝓎𝒶'
 global.author = '                「 𝙳𝚊𝚡𝚡𝚢 𝙱𝚘𝚝 あ⁩ 」'
 
@@ -159,16 +159,16 @@ global.dmenub2 = '┊' //body for info cmd on Default menu
 global.dmenuf = '┗––––––––––✦' //footer
 
 // COMMAND MENU
-global.dashmenu = '┅━━━━━═┅═❏ *DASHBOARD* ❏═┅═━━━━━┅'
-global.cmenut = '❏––––––『'                       //top
-global.cmenuh = '』––––––'                        //header
-global.cmenub = '┊➳'                            //body
+global.dashmenu = '┅━━━━━═┅═❏ *🅓︎🅐︎🅢︎🅑︎🅞︎🅐︎🅡︎🅓︎* ❏═┅═━━━━━┅'
+global.cmenut = '─────〔'                       //top
+global.cmenuh = '〕─────'                        //header
+global.cmenub = '┊✰'                            //body
 global.cmenuf = '┗━═┅═━––––––๑\n'                //footer
 global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
 global.pmenus = '┊'                              //pembatas menu selector
 
-global.htki = '––––––『' // Hiasan Titile (KIRI)
-global.htka = '』––––––' // Hiasan Title  (KANAN)
+global.htki = '❏━═┅━–' // Hiasan Titile (KIRI)
+global.htka = '–┅═━❏' // Hiasan Title  (KANAN)
 global.lopr = 'Ⓟ' //LOGO PREMIUM ON MENU.JS
 global.lolm = 'Ⓛ' //LOGO FREE ON MENU.JS
 global.htjava = '⫹⫺'    //hiasan Doang :v
