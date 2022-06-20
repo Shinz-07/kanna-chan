@@ -216,21 +216,21 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     let mpt = clockString(_mpt)
       const sections = [
    {
-	title: `${htki} ℳ𝒶𝒾𝓃 ℳℯ𝓃𝓊 ${htka}`,
+	title: `${htki} ᴍᴀɪɴ ᴍᴇɴᴜ ${htka}`,
 	rows: [
-	    {title: `1 «ꨄ︎⚡»༆ ${pmenus} 𝑻𝒆𝒔𝒕 𝑺𝒑𝒆𝒆𝒅 𝑩𝒐𝒚`, rowId: ".ping", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙺𝚎𝚌𝚎𝚙𝚊𝚝𝚊𝚗 𝙳𝚊𝚡𝚡𝚢 𝙱𝚘𝚝"},
+	    {title: `1 «ꨄ︎⚡»༆ ${pmenus} 𝑻𝒆𝒔𝒕 𝑺𝒑𝒆𝒆𝒅 𝑩𝒐𝒕`, rowId: ".ping", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙺𝚎𝚌𝚎𝚙𝚊𝚝𝚊𝚗 𝙳𝚊𝚡𝚡𝚢 𝙱𝚘𝚝"},
 	    {title: `2 «ꨄ︎💌»༆ ${pmenus} 𝑶𝒘𝒏𝒆𝒓  `, rowId: ".owner", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙻𝚒𝚜𝚝 𝙾𝚠𝚗𝚎𝚛 𝙳𝚊𝚡𝚡𝚢 𝙱𝚘𝚝"},
 	    {title: `3 «ꨄ︎📔»༆ ${pmenus} 𝑺𝒄𝒓𝒊𝒑𝒕 𝑩𝒐𝒕`, rowId: ".sc", description: `𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎  ${namebot}`},
 	]
     },{
-	title: `${htki} 𝒮𝓊𝓅𝓅ℴ𝓇𝓉 𝒟𝒶𝓍𝓍𝓎ℬℴ𝓉 ${htka}`,
+	title: `${htki} sᴜᴘᴘᴏʀᴛ ᴅᴀxxʏ ʙᴏᴛᴢ ${htka}`,
 	rows: [
 	    {title: `1 ❥︎︎︎︎«🔖»༆ ${pmenus} 𝑺𝒆𝒘𝒂 𝑩𝒐𝒕`, rowId: ".sewa", description: "𝙻𝚒𝚜𝚝 𝚂𝚎𝚠𝚊 𝙱𝚘𝚝 "},
-	    {title: `2 ❥︎«🌟»༆${pmenus} 𝑩𝒖𝒚 𝑷𝒓𝒆𝒎𝒖𝒚𝒎`, rowId: ".premium", description: "Menampilkan list harga premium"},
+	    {title: `2 ❥︎«🌟»༆${pmenus} 𝑩𝒖𝒚 𝑷𝒓𝒆𝒎𝒊𝒖𝒎`, rowId: ".premium", description: "Menampilkan list harga premium"},
 	    {title: `3 ❥︎«💹 »༆${pmenus} 𝑫𝒐𝒏𝒂𝒔𝒊`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
 	]
 	},{
-	title: `${htki} ℳℯ𝓃𝓊 𝒟𝒶𝓍𝓍𝓎ℬℴ𝓉 ${htka}`,
+	title: `${htki} ᴍᴇɴᴜ ᴅᴀxxʏʙᴏᴛ ${htka}`,
 	rows: [
 	    {title: `1 »💬«༄ ${pmenus} 𝑨𝒍𝒍 𝑴𝒆𝒏𝒖`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
 	    {title: `2 »🌱«༄ ${pmenus} 𝑹𝒑𝒈 𝑮𝒂𝒎𝒆`, rowId: ".? rpg", description: "Game Epic Rpg!"},
@@ -249,7 +249,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `15 »🎨«༄ ${pmenus} 𝑺𝒕𝒊𝒌𝒆𝒓𝒔`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
 	{title: `16 »✏«༄️ ${pmenus} 𝑵𝒖𝒍𝒊𝒔`, rowId: ".? nulis", description: "Nulis kok males kak?"},
 	{title: `17 »🎧«༄ ${pmenus} 𝑨𝒖𝒅𝒊𝒐`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
-	{title: `18 »🏢«༄ ${pmenus} 𝑮𝒓𝒐𝒖𝒑`, rowId: ".? group", description: "Only Groups"},
+	{title: `18 »🏢«༄ ${pmenus} 𝑮𝒓𝒐𝒖𝒑`, rowId: ".? groups", description: "Only Groups"},
 	{title: `19 »👑«༄ ${pmenus} 𝑨𝒅𝒎𝒊𝒏`, rowId: ".? admin", description: "Only Admin Group"},
 	{title: `20 »🗂«༄️ ${pmenus} 𝑫𝒂𝒕𝒂𝒃𝒂𝒔𝒆`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
 	{title: `21 »🛠«༄️ ${pmenus} 𝑻𝒐𝒍𝒔`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
@@ -263,34 +263,35 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 
-❏––––––『 *𝑼𝒔𝒆𝒓 𝑰𝒏𝒇𝒐* 』
-┊ఌ︎ *𝑵𝒂𝒎𝒂:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-┊ఌ︎ *𝑻𝒂𝒈𝒔:* @${m.sender.split`@`[0]}
-┊ఌ︎ *𝑺𝒕𝒂𝒕𝒖𝒔:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┊ఌ︎ *𝑷𝒓𝒆𝒎𝒊𝒖𝒎:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
-┊𝒜𝒹𝒾𝓉𝓎𝒶 𝒜𝓃𝒹 𝒟𝒶𝓍𝓍𝓎
-┗━═┅═━––––––
-« 𝙰𝙳𝙸𝚃 𝚈𝙶𝚈 »
-❏––––––『 *𝑺𝒕𝒂𝒕𝒖𝒔 𝑰𝒏𝒇𝒐* 』
-┊❦︎ *𝑼𝒑𝒕𝒊𝒎𝒆:* ${mpt}
-┊❦︎ *𝑻𝒊𝒎𝒆:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
-┊❦︎ *𝑼𝒔𝒆𝒓:* ${Object.keys(global.db.data.users).length}
-┊❦︎ *𝑳𝒊𝒎𝒊𝒕:* ${usrs.limit}
-┊❦︎ *𝑳𝒆𝒗𝒆𝒍:* ${usrs.level}
-┊❦︎ *𝑹𝒐𝒍𝒆:* ${usrs.role}${usrs.premiumTime > 1 ? `
-┊❦︎ *𝑬𝒙𝒑𝒊𝒓𝒆𝒅 𝑷𝒓𝒆𝒎𝒊𝒖𝒎:*
+*❏ S T A T U S U S E R*
+ *・ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
+ *・ᴛᴀɢs:* @${m.sender.split`@`[0]}
+ *・sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+ *・ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
+ 
+*❏ I N F O U S E R*
+ *・ᴜᴘᴛɪᴍᴇ:* ${mpt}
+ *・ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
+︎ *・ᴜsᴇʀ:* ${Object.keys(global.db.data.users).length}
+︎ *・ʟɪᴍɪᴛ:* ${usrs.limit}
+︎ *・ʟᴇᴠᴇʟ:* ${usrs.level}
+ *・ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
+︎ *・ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
-┊𝒫𝓁𝓈𝓈 𝒩ℴ ℋ𝓊𝒿𝒶𝓉 ℳℯ ℋ𝒶𝓃𝓎𝒶 ℛℯ𝒸ℴ𝒹
-┗━═┅═━––––––
-𝑶𝑭𝑭𝑪𝑰𝑨𝑳 𝑮𝑹𝑶𝑼𝑷 𝑩𝑶𝑻 
-bit.ly/3QHkyMq
-`
+
+*❏ O W N E R I N F O*
+*・ɴᴀᴍᴇ:* ᴀᴅɪᴛʏᴀ
+*・ᴜᴍᴜʀ:* 12ᴛʜ
+*・ʜᴏʙɪ:* ᴍᴀɪɴ ɢᴀᴍᴇ
+*・ɢʀᴏᴜᴘ ʙᴏᴛ: bit.ly/3QHkyMq*
+
+ɪɴғᴏ ʟᴀɪɴʏᴀ ☟︎︎︎`
 const listMessage = {
   text: tek,
-  footer: ' 📮 Bot Masih Versi  1.0 Jadi Jadi Masih Banyak Bug :) ',
+  footer: 'ᴅᴏɴᴛ sᴘᴀᴍ ʙᴏᴛ ᴊɪᴋᴀ ᴛᴇʀᴊᴀᴅɪ ᴇʀᴏʀ ʟᴀᴘᴏʀ ᴋᴇ ᴏᴡɴᴇʀ: ᴛʀɪᴍᴀᴋᴀsɪʜ ᴛᴇʟᴀʜ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴅᴀxxʏ ʙᴏᴛ ᴠᴇʀsɪᴏɴ| 1.12',
   mentions: await conn.parseMention(tek),
-  title: `${htki} *𝑳𝒊𝒔𝒕 𝑴𝒆𝒏𝒖* ${htka}`,
-  buttonText: ` L I S T 💌  `,
+  title: `${htki} *ʟɪsᴛ ᴍᴇɴᴜ* ${htka}`,
+  buttonText: ` 🇨 🇱 🇮 🇨 🇰    🇲 🇪   `,
   sections
 }
   if (teks == '404') {
@@ -484,7 +485,7 @@ const listMessage = {
     
     //------- BUTTON DOC WITH EXTERNAL ADS
     // MAMPUS DI ENC :v
-    const _0x187932=_0x5c09;function _0x5c09(_0x28b840,_0x244043){const _0x1766bb=_0x1766();return _0x5c09=function(_0x5c09dc,_0x158321){_0x5c09dc=_0x5c09dc-0x1bb;let _0x4031df=_0x1766bb[_0x5c09dc];return _0x4031df;},_0x5c09(_0x28b840,_0x244043);}(function(_0x1c9e83,_0x2eef01){const _0x5e85ab=_0x5c09,_0x179660=_0x1c9e83();while(!![]){try{const _0x4c7814=-parseInt(_0x5e85ab(0x1d0))/0x1*(-parseInt(_0x5e85ab(0x1bd))/0x2)+parseInt(_0x5e85ab(0x1c4))/0x3*(parseInt(_0x5e85ab(0x1bf))/0x4)+parseInt(_0x5e85ab(0x1cc))/0x5*(-parseInt(_0x5e85ab(0x1d1))/0x6)+parseInt(_0x5e85ab(0x1c1))/0x7*(parseInt(_0x5e85ab(0x1bc))/0x8)+parseInt(_0x5e85ab(0x1cd))/0x9*(-parseInt(_0x5e85ab(0x1c7))/0xa)+parseInt(_0x5e85ab(0x1cb))/0xb*(-parseInt(_0x5e85ab(0x1be))/0xc)+parseInt(_0x5e85ab(0x1ce))/0xd;if(_0x4c7814===_0x2eef01)break;else _0x179660['push'](_0x179660['shift']());}catch(_0x2b3360){_0x179660['push'](_0x179660['shift']());}}}(_0x1766,0x70ad5));let buttonMessage={'document':{'url':sgc},'mimetype':td,'fileName':global['wm'],'fileLength':fsizedoc,'pageCount':fpagedoc,'contextInfo':{'forwardingScore':0x22b,'isForwarded':!![],'externalAdReply':{'mediaUrl':global[_0x187932(0x1c8)],'mediaType':0x2,'previewType':_0x187932(0x1c9),'title':global['titlebot'],'body':global['titlebot'],'thumbnail':await(await fetch(thumb))[_0x187932(0x1ca)](),'sourceUrl':sgc}},'caption':text,'footer':botdate,'buttons':[{'buttonId':'.𝑶 𝑾 𝑵 𝑬 𝑹 🧸','buttonText':{'displayText':_0x187932(0x1bb)},'type':0x1},{'buttonId':_0x187932(0x1c5),'buttonText':{'displayText':_0x187932(0x1c0)},'type':0x1},{'buttonId':_0x187932(0x1c6),'buttonText':{'displayText':'Donasi'},'type':0x1}],'headerType':0x6};await conn[_0x187932(0x1c2)](m[_0x187932(0x1cf)],buttonMessage,{'quoted':m,'mentionedJid':[m[_0x187932(0x1c3)]]});function _0x1766(){const _0x1c60e8=['3ezQcUH','.ping','.donasi','725770ccnUBU','sig','pdf','buffer','305624SHQwwY','233195fjGJSZ','72BjUaMS','2869867kBKaey','chat','6NokiEm','72PsFaxu','Owner','1832yREmVQ','205026IsvCrH','132IBvmfp','3329164htczQJ','Speed','7315FCLnNH','sendMessage','sender'];_0x1766=function(){return _0x1c60e8;};return _0x1766();}
+    const _0x187932=_0x5c09;function _0x5c09(_0x28b840,_0x244043){const _0x1766bb=_0x1766();return _0x5c09=function(_0x5c09dc,_0x158321){_0x5c09dc=_0x5c09dc-0x1bb;let _0x4031df=_0x1766bb[_0x5c09dc];return _0x4031df;},_0x5c09(_0x28b840,_0x244043);}(function(_0x1c9e83,_0x2eef01){const _0x5e85ab=_0x5c09,_0x179660=_0x1c9e83();while(!![]){try{const _0x4c7814=-parseInt(_0x5e85ab(0x1d0))/0x1*(-parseInt(_0x5e85ab(0x1bd))/0x2)+parseInt(_0x5e85ab(0x1c4))/0x3*(parseInt(_0x5e85ab(0x1bf))/0x4)+parseInt(_0x5e85ab(0x1cc))/0x5*(-parseInt(_0x5e85ab(0x1d1))/0x6)+parseInt(_0x5e85ab(0x1c1))/0x7*(parseInt(_0x5e85ab(0x1bc))/0x8)+parseInt(_0x5e85ab(0x1cd))/0x9*(-parseInt(_0x5e85ab(0x1c7))/0xa)+parseInt(_0x5e85ab(0x1cb))/0xb*(-parseInt(_0x5e85ab(0x1be))/0xc)+parseInt(_0x5e85ab(0x1ce))/0xd;if(_0x4c7814===_0x2eef01)break;else _0x179660['push'](_0x179660['shift']());}catch(_0x2b3360){_0x179660['push'](_0x179660['shift']());}}}(_0x1766,0x70ad5));let buttonMessage={'document':{'url':sgc},'mimetype':td,'fileName':global['wm'],'fileLength':fsizedoc,'pageCount':fpagedoc,'contextInfo':{'forwardingScore':0x22b,'isForwarded':!![],'externalAdReply':{'mediaUrl':global[_0x187932(0x1c8)],'mediaType':0x2,'previewType':_0x187932(0x1c9),'title':global['titlebot'],'body':global['titlebot'],'thumbnail':await(await fetch(thumb))[_0x187932(0x1ca)](),'sourceUrl':sgc}},'caption':text,'footer':botdate,'buttons':[{'buttonId':'.𝑶 𝑾 𝑵 𝑬 𝑹 🧸','buttonText':{'displayText':_0x187932(0x1bb)},'type':0x1},{'buttonId':_0x187932(0x1c5),'buttonText':{'displayText':_0x187932(0x1c0)},'type':0x1},{'buttonId':_0x187932(0x1c6),'buttonText':{'displayText':'Donasi'},'type':0x1}],'headerType':0x6};await conn[_0x187932(0x1c2)](m[_0x187932(0x1cf)],buttonMessage,{'quoted':m,'mentionedJid':[m[_0x187932(0x1c3)]]});function _0x1766(){const _0x1c60e8=['3ezQcUH','.P I N G','.DONASI 😊','725770ccnUBU','sig','pdf','buffer','305624SHQwwY','233195fjGJSZ','72BjUaMS','2869867kBKaey','chat','6NokiEm','72PsFaxu','Owner','1832yREmVQ','205026IsvCrH','132IBvmfp','3329164htczQJ','Speed','7315FCLnNH','sendMessage','sender'];_0x1766=function(){return _0x1c60e8;};return _0x1766();}
     
 //-------DOC TEMPLATE
     const message = {
@@ -574,18 +575,18 @@ function clockStringP(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  let res = "Selamat DiniHari ☀️"
+  let res = "sᴇʟᴀᴍᴀᴛ ᴅɪɴɪ ʜᴀʀɪ ᴋᴀᴋ ☀️"
   if (time >= 4) {
-    res = "𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑷𝒂𝒈𝒊 𝑲𝒂𝒌 🌄"
+    res = "sᴇʟᴀᴍᴀᴛ ᴘᴀɢɪ ᴋᴀᴋ 🌄"
   }
   if (time >= 10) {
-    res = "𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑺𝒊𝒂𝒏𝒈 𝑲𝒂𝒌 ☀️"
+    res = "sᴇʟᴀᴍᴀᴛ sɪᴀɴɢ ᴋᴀᴋ ☀️"
   }
   if (time >= 15) {
-    res = "𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑺𝒐𝒓𝒆 𝑲𝒂𝒌 🌇"
+    res = "sᴇʟᴀᴍᴀᴛ sᴏʀᴇ ᴋᴀᴋ 🌇"
   }
   if (time >= 18) {
-    res = "𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝑴𝒂𝒍𝒂𝒎 𝑲𝒂𝒌 🌙"
+    res = "sᴇʟᴀᴍᴀᴛ ᴍᴀʟᴀᴍ ᴋᴀᴋ 🌙"
   }
   return res
 }
